@@ -1,0 +1,191 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-image: url('photos/Man.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: backgroundAnimation 20s linear infinite;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+header {
+  background-image: url("photos/Ligne.jpg");
+  color: transparent;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 0 0 5px rgba(46, 20, 20, 0.2);
+  transition: text-shadow 0.3s ease; 
+}
+
+  
+  header:hover {
+    text-shadow: none;
+    color: #4d450a;
+    font-size: 30px;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 0, 25);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 24px;
+  }
+  
+  nav a:hover {
+    color: #33ff58;
+  }
+  
+  main {
+    margin: 50px;
+  }
+  
+  section {
+    filter: blur(5px);
+    transition: filter 0.2s ease;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(230, 11, 11, 0.2);
+    filter: blur(0);
+  }
+  
+  h1 {
+    font-size: 35px;
+    color: #ff5733; 
+  }
+  
+  h2 {
+    font-size: 33px;
+    color: #f7ff0a;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #d147cc;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ad0000;
+  }
+  
+  ul {
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: underline;
+    color: #2bdbf6;
+    font-size: 18px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    color: #00b3ff;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+
+  img {
+    max-width: 160px;
+    max-height: 160px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  /* styles.css */
+  
+  /* Style du formulaire */
+  .container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #9f7a7a;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #000000;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style de base pour le footer */
+footer {
+  background-color: #00ff95; /* Couleur de fond du footer */
+  color: #fff; /* Couleur du texte */
+  padding: 20px; /* Espacement intérieur */
+  text-align: center; /* Alignement du texte au centre */
+}
+
+/* Style des liens dans le footer */
+footer a {
+  color: #040404; /* Couleur des liens */
+  text-decoration: none; /* Suppression du soulignement des liens */
+}
+
+/* Style des liens au survol */
+footer a:hover {
+  text-decoration: underline; /* Soulignement des liens au survol */
+}

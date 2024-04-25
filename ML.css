@@ -1,0 +1,78 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c3f3f3;
+}
+
+header, footer {
+    background-color: #333;
+    color: #b7eef6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Style de base pour le menu de navigation */
+nav {
+    background-color: #8a6262; /* Couleur de fond du menu */
+}
+
+ul {
+    list-style-type: none; /* Suppression des puces de liste */
+    padding: 0; /* Suppression des marges intérieures */
+    margin: 0; /* Suppression des marges extérieures */
+}
+
+li {
+    display: inline; /* Affichage des éléments de liste en ligne */
+}
+
+/* Style des liens dans le menu de navigation */
+li a {
+    display: block;
+    padding: 10px 20px; /* Espacement interne */
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Suppression du soulignement des liens */
+}
+
+/* Style des liens au survol */
+li a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+/* Style des liens actifs */
+li.active a {
+    background-color: #007bff; /* Couleur de fond pour le lien actif */
+}
